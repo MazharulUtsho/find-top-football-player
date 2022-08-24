@@ -2,9 +2,7 @@
 
 .background-styles {
     background-color: black;
-    position: fixed;
     width: 100%;
-    margin-left: -10px;
     display: flex;
 }
 
@@ -12,7 +10,7 @@
     margin-left: 150px;
 }
 
-h1 {
+.text-box h1 {
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Anton', sans-serif;
     font-family: 'Lobster', cursive;
@@ -34,11 +32,12 @@ h1 {
     margin-right: auto;
     font-size: 20px;
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 .banner-image img {
     height: 400px;
-    margin-bottom: -4px;
+    /* margin-bottom: -1px; */
     width: auto;
     margin-left: 150px;
 
