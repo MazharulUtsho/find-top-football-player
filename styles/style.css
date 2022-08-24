@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Lobster&display=swap');
+
+.background-styles {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    margin-left: -10px;
+    display: flex;
+}
+
+.text-box {
+    margin-left: 150px;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.text-box h1 {
+    letter-spacing: 5px;
+    color: lightskyblue;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.text-box p {
+    text-align: center;
+    color: white;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.banner-image img {
+    height: 400px;
+    margin-bottom: -4px;
+    width: auto;
+    margin-left: 150px;
+
+
+}
+
+.small-banner img {
+    margin-top: 40px;
+    margin-left: 150px;
+}
