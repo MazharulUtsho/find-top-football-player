@@ -1,11 +1,13 @@
 function playerNameAddedToSelectedV(titleId, listId, buttonId) {
-    const messiNameTitle = document.getElementById(titleId);
-    const messiNameValue = messiNameTitle.innerText;
-    const messiInsideList = document.getElementById(listId);
-    messiInsideList.innerText = messiNameValue;
-    const messiTitleSelectionButton = document.getElementById(buttonId);
-    messiTitleSelectionButton.disabled = true;
+    const playerNameTitle = document.getElementById(titleId);
+    const playerNameValue = playerNameTitle.innerText;
+    const playerNameInsideList = document.getElementById(listId);
+    playerNameInsideList.innerText = playerNameValue;
+    const playerTitleSelectionButton = document.getElementById(buttonId);
+    playerTitleSelectionButton.disabled = true;
+    playerTitleSelectionButton.style.backgroundColor = 'gray';
 }
+
 
 
 
